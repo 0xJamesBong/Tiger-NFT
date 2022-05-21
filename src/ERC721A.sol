@@ -10,6 +10,7 @@ import "@openzeppelin/contracts/utils/Address.sol";
 import "@openzeppelin/contracts/utils/Context.sol";
 import "@openzeppelin/contracts/utils/Strings.sol";
 import "@openzeppelin/contracts/utils/introspection/ERC165.sol";
+import "@openzeppelin/contracts/interfaces/IERC2981.sol";
 
 /**
  * @dev Implementation of https://eips.ethereum.org/EIPS/eip-721[ERC721] Non-Fungible Token Standard, including
@@ -26,7 +27,8 @@ contract ERC721A is
   ERC165,
   IERC721,
   IERC721Metadata,
-  IERC721Enumerable
+  IERC721Enumerable,
+  IERC2981
 {
   using Address for address;
   using Strings for uint256;
@@ -146,6 +148,7 @@ contract ERC721A is
       interfaceId == type(IERC721).interfaceId ||
       interfaceId == type(IERC721Metadata).interfaceId ||
       interfaceId == type(IERC721Enumerable).interfaceId ||
+      interfaceId == type(IERC2981).interfaceId ||
       super.supportsInterface(interfaceId);
   }
 
@@ -554,4 +557,14 @@ contract ERC721A is
     uint256 startTokenId,
     uint256 quantity
   ) internal virtual {}
+
+  function royaltyInfo(
+                uint256 _tokenId,
+                uint256 _salePrice
+            ) public view virtual returns (
+                address receiver,
+                uint256 royaltyAmount
+            ) {
+    return (receiver, royaltyAmount);
+  }
 }

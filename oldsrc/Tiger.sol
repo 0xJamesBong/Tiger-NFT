@@ -10,8 +10,6 @@ import "@openzeppelin/contracts/interfaces/IERC165.sol";
 
 
 
-
-
 contract Tiger is Ownable, ERC721A, ReentrancyGuard {
   uint256 public immutable maxPerAddressDuringMint;
   uint256 public immutable amountForDevs;
