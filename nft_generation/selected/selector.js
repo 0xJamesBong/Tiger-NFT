@@ -148,13 +148,14 @@ function readMetadatas(selected_json) {
 //     fs.appendFileSync('metadata.json', newMetadataFile);
 // }
 
-async function moveAndMakeAggregateMetadata() {
-  moveMetadata(selectedImagesPath, outputJsonPath, oldJsonPath).then(
-    readMetadatas(selected_json)
-  )
-}
+// async function moveAndMakeAggregateMetadata() {
+  // moveMetadata(selectedImagesPath, outputJsonPath, oldJsonPath).then(
+    // readMetadatas(selected_json)
+  // )
+// }
 
-moveAndMakeAggregateMetadata()
+moveMetadata(selectedImagesPath, outputJsonPath, oldJsonPath)
+// moveAndMakeAggregateMetadata()
 // readMetadatas(selected_json)
 
 // moveMetadata(selectedImagesPath, outputJsonPath, oldJsonPath) 

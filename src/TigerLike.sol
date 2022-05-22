@@ -11,7 +11,6 @@ import "@openzeppelin/contracts/interfaces/IERC165.sol";
 
 contract Tiger is Ownable, ERC721A, ReentrancyGuard {
 
-  
   uint256 public immutable amountReservedForWhitelisted;    
 
     struct SaleConfig {
@@ -28,7 +27,6 @@ contract Tiger is Ownable, ERC721A, ReentrancyGuard {
       uint256 maxBatchSize_,                    //10
       uint256 collectionSize_,                  // 8888
       uint256 amountReservedForWhitelisted_     // 888
-      // uint256 amountForDevs_                 /// 0
     ) ERC721A("Tiger", "TGR", maxBatchSize_, collectionSize_) {
       
       amountReservedForWhitelisted = amountReservedForWhitelisted_;
