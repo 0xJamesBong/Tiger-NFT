@@ -1,0 +1,5 @@
+The "layers" folder is where you put the elements that you use for the generation
+The LayersEmpty folder replicates the structure of the layers folder
+Donttouchlayers is the folder where all the layers are in the their original format
+
+You choose your layers, and then run ''' node index.js''' and then the results are spat out in the build folder 
