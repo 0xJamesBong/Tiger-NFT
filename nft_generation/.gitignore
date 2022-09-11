@@ -140,3 +140,7 @@ dist
 # OSX
 
 .DS_Store
+
+# generated NFTs 
+/selected/selected_images
+/selected/selected_json

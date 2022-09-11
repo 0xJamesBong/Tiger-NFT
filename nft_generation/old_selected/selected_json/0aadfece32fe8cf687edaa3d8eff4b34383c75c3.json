@@ -1,0 +1,79 @@
+{
+  "name": "Your Collection #7",
+  "description": "Remember to replace this description",
+  "image": "ipfs://NewUriToReplace/7.png",
+  "dna": "0aadfece32fe8cf687edaa3d8eff4b34383c75c3",
+  "edition": 7,
+  "date": 1656743592294,
+  "attributes": [
+    {
+      "trait_type": "background",
+      "value": "background_rose"
+    },
+    {
+      "trait_type": "central_complex",
+      "value": "central_complex_forest"
+    },
+    {
+      "trait_type": "forehead",
+      "value": "forehead_chocolate"
+    },
+    {
+      "trait_type": "left_complex",
+      "value": "left_complex_fun2"
+    },
+    {
+      "trait_type": "left_ear",
+      "value": "left_ear_chocolate"
+    },
+    {
+      "trait_type": "left_eye",
+      "value": "left_eye_chocolate"
+    },
+    {
+      "trait_type": "left_eye_cross",
+      "value": "left_eye_cross_fun2"
+    },
+    {
+      "trait_type": "left_iris",
+      "value": "left_iris_pale_blue"
+    },
+    {
+      "trait_type": "left_nose",
+      "value": "left_nose_chocolate"
+    },
+    {
+      "trait_type": "nose",
+      "value": "nose_forest"
+    },
+    {
+      "trait_type": "right_complex",
+      "value": "right_complex_fun2"
+    },
+    {
+      "trait_type": "right_ear",
+      "value": "right_ear_fun2"
+    },
+    {
+      "trait_type": "right_eye",
+      "value": "right_eye_fun2"
+    },
+    {
+      "trait_type": "right_eye_cross",
+      "value": "right_eye_cross_blood"
+    },
+    {
+      "trait_type": "right_iris",
+      "value": "right_iris_pale_jade"
+    },
+    {
+      "trait_type": "scattered_complex",
+      "value": "scattered_complex_forest"
+    },
+    {
+      "trait_type": "sides",
+      "value": "sides_chocolate"
+    }
+  ],
+  "compiler": "HashLips Art Engine"
+}

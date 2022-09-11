@@ -1,0 +1,79 @@
+{
+  "name": "Your Collection #1",
+  "description": "Remember to replace this description",
+  "image": "ipfs://NewUriToReplace/1.png",
+  "dna": "13b22c17960010460e9cefda1d509f2b7a59cfe1",
+  "edition": 1,
+  "date": 1656748257024,
+  "attributes": [
+    {
+      "trait_type": "background",
+      "value": "background_rose"
+    },
+    {
+      "trait_type": "central_complex",
+      "value": "central_complex_red"
+    },
+    {
+      "trait_type": "forehead",
+      "value": "forehead_red"
+    },
+    {
+      "trait_type": "left_complex",
+      "value": "left_complex_red"
+    },
+    {
+      "trait_type": "left_ear",
+      "value": "left_ear_red"
+    },
+    {
+      "trait_type": "left_eye",
+      "value": "left_eye_red"
+    },
+    {
+      "trait_type": "left_eye_cross",
+      "value": "left_eye_cross_chocolate"
+    },
+    {
+      "trait_type": "left_iris",
+      "value": "left_iris_pale_forest"
+    },
+    {
+      "trait_type": "left_nose",
+      "value": "left_nose_chocolate"
+    },
+    {
+      "trait_type": "nose",
+      "value": "nose_chocolate"
+    },
+    {
+      "trait_type": "right_complex",
+      "value": "right_complex_red"
+    },
+    {
+      "trait_type": "right_ear",
+      "value": "right_ear_chocolate"
+    },
+    {
+      "trait_type": "right_eye",
+      "value": "right_eye_chocolate"
+    },
+    {
+      "trait_type": "right_eye_cross",
+      "value": "right_eye_cross_chocolate"
+    },
+    {
+      "trait_type": "right_iris",
+      "value": "right_iris_pale_forest"
+    },
+    {
+      "trait_type": "scattered_complex",
+      "value": "scattered_complex_red"
+    },
+    {
+      "trait_type": "sides",
+      "value": "sides_red"
+    }
+  ],
+  "compiler": "HashLips Art Engine"
+}

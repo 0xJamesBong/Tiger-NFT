@@ -9,3 +9,7 @@ node_modules
 
 coverage/
 coverage.json
+
+# generated NFTs 
+/selected/selected_images
+/selected/selected_json

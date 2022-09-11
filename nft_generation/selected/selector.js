@@ -35,29 +35,28 @@ function readFilesSync(dir) {
   
     return fileNames 
 }
+// moveMetadata moves all the .json metadata
 
-
-// function copyMetaData(selectedImagesPath, modifiedJsonMetadataFilePath, fileName) {
-    
-//     const fileNamePath = path.join(selectedImagesPath,fileName);
-//     const jsonFilePath = path.join(modifiedJsonMetadataFilePath,fileName);
-//     // console.log(fileNamePath);
-//     fs.copyFile(fileNamePath,jsonFilePath, (err) => {
-//         if (err) throw err;
-//         console.log(`${fileName} was copied to destination`);
-//       });          
-// }
-
-// console.log(generatedJsonData.length)
-// generatedJsonData.forEach(object => {
-//     console.log(object.dna)
-// })
+function numberOfFiles() {
+  const imageDir = "./selected_images";
+  const jsonDir = "./selected_json";
+  fs.readdir(imageDir, (err, files) => {
+  console.log("number of images:", files.length);
+  })
+  fs.readdir(jsonDir, (err, files) => {
+    console.log("number of jsons:", files.length);
+    })
+};
 
 
 async function moveMetadata(selectedImagesPath, outputJsonPath, oldJsonPath) {
+  
   // This reads all the files in the dir where all the images I've selected
   // and poduces a list of their names
+  
+    //  reads all the png files 
     const selectedImagesFileNames = readFilesSync(selectedImagesPath);
+    //  reads all the json files 
     const oldJsonFileNames        = readFilesSync(oldJsonPath);
     
     let newMetadataFile = [];
@@ -85,6 +84,8 @@ async function moveMetadata(selectedImagesPath, outputJsonPath, oldJsonPath) {
             })    
         }          
     })
+
+    // numberOfFiles()
     // console.log(newMetadataFile.length)
     
     // var jsonObj = JSON.parse(newMetadataFile);
@@ -99,6 +100,9 @@ async function moveMetadata(selectedImagesPath, outputJsonPath, oldJsonPath) {
     // fs.appendFileSync('metadata.json', newMetadataFile);
 }
 
+
+// moveMetadata(selectedImagesPath, outputJsonPath, oldJsonPath)
+numberOfFiles()
 
 function readMetadatas(selected_json) {
   let metadatas = []
@@ -131,6 +135,12 @@ function readMetadatas(selected_json) {
   })
 }
 
+
+
+
+
+
+
 // async function makeAggregateMetadataFile(metadataFilesPath) {
 //   let files = readFilesSync(metadataFilesPath)
 //   let metadatas = [];
@@ -154,8 +164,25 @@ function readMetadatas(selected_json) {
   // )
 // }
 
-moveMetadata(selectedImagesPath, outputJsonPath, oldJsonPath)
+
 // moveAndMakeAggregateMetadata()
 // readMetadatas(selected_json)
 
 // moveMetadata(selectedImagesPath, outputJsonPath, oldJsonPath) 
+
+
+// function copyMetaData(selectedImagesPath, modifiedJsonMetadataFilePath, fileName) {
+    
+//     const fileNamePath = path.join(selectedImagesPath,fileName);
+//     const jsonFilePath = path.join(modifiedJsonMetadataFilePath,fileName);
+//     // console.log(fileNamePath);
+//     fs.copyFile(fileNamePath,jsonFilePath, (err) => {
+//         if (err) throw err;
+//         console.log(`${fileName} was copied to destination`);
+//       });          
+// }
+
+// console.log(generatedJsonData.length)
+// generatedJsonData.forEach(object => {
+//     console.log(object.dna)
+// })

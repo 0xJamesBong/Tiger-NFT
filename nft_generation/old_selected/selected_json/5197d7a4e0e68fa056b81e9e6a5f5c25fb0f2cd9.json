@@ -1,0 +1,79 @@
+{
+  "name": "Your Collection #6",
+  "description": "Remember to replace this description",
+  "image": "ipfs://NewUriToReplace/6.png",
+  "dna": "5197d7a4e0e68fa056b81e9e6a5f5c25fb0f2cd9",
+  "edition": 6,
+  "date": 1656746838133,
+  "attributes": [
+    {
+      "trait_type": "background",
+      "value": "background_blue"
+    },
+    {
+      "trait_type": "central_complex",
+      "value": "central_complex_gold"
+    },
+    {
+      "trait_type": "forehead",
+      "value": "forehead_orange"
+    },
+    {
+      "trait_type": "left_complex",
+      "value": "left_complex_orange"
+    },
+    {
+      "trait_type": "left_ear",
+      "value": "left_ear_gold"
+    },
+    {
+      "trait_type": "left_eye",
+      "value": "left_eye_gold"
+    },
+    {
+      "trait_type": "left_eye_cross",
+      "value": "left_eye_cross_orange"
+    },
+    {
+      "trait_type": "left_iris",
+      "value": "left_iris_pale_black"
+    },
+    {
+      "trait_type": "left_nose",
+      "value": "left_nose_gold"
+    },
+    {
+      "trait_type": "nose",
+      "value": "nose_orange"
+    },
+    {
+      "trait_type": "right_complex",
+      "value": "right_complex_gold"
+    },
+    {
+      "trait_type": "right_ear",
+      "value": "right_ear_orange"
+    },
+    {
+      "trait_type": "right_eye",
+      "value": "right_eye_orange"
+    },
+    {
+      "trait_type": "right_eye_cross",
+      "value": "right_eye_cross_orange"
+    },
+    {
+      "trait_type": "right_iris",
+      "value": "right_iris_pale_cyan"
+    },
+    {
+      "trait_type": "scattered_complex",
+      "value": "scattered_complex_orange"
+    },
+    {
+      "trait_type": "sides",
+      "value": "sides_gold"
+    }
+  ],
+  "compiler": "HashLips Art Engine"
+}

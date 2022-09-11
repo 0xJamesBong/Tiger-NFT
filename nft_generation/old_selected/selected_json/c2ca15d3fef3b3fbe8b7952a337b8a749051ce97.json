@@ -1,0 +1,79 @@
+{
+  "name": "Your Collection #1",
+  "description": "Remember to replace this description",
+  "image": "ipfs://NewUriToReplace/1.png",
+  "dna": "c2ca15d3fef3b3fbe8b7952a337b8a749051ce97",
+  "edition": 1,
+  "date": 1656748976404,
+  "attributes": [
+    {
+      "trait_type": "background",
+      "value": "background_light_sky"
+    },
+    {
+      "trait_type": "central_complex",
+      "value": "central_complex_sapphire"
+    },
+    {
+      "trait_type": "forehead",
+      "value": "forehead_sapphire"
+    },
+    {
+      "trait_type": "left_complex",
+      "value": "left_complex_sapphire"
+    },
+    {
+      "trait_type": "left_ear",
+      "value": "left_ear_sapphire"
+    },
+    {
+      "trait_type": "left_eye",
+      "value": "left_eye_sapphire"
+    },
+    {
+      "trait_type": "left_eye_cross",
+      "value": "left_eye_cross_sapphire"
+    },
+    {
+      "trait_type": "left_iris",
+      "value": "left_iris_strawberry_icecream"
+    },
+    {
+      "trait_type": "left_nose",
+      "value": "left_nose_sapphire"
+    },
+    {
+      "trait_type": "nose",
+      "value": "nose_sapphire"
+    },
+    {
+      "trait_type": "right_complex",
+      "value": "right_complex_sapphire"
+    },
+    {
+      "trait_type": "right_ear",
+      "value": "right_ear_sapphire"
+    },
+    {
+      "trait_type": "right_eye",
+      "value": "right_eye_sapphire"
+    },
+    {
+      "trait_type": "right_eye_cross",
+      "value": "right_eye_cross_sapphire"
+    },
+    {
+      "trait_type": "right_iris",
+      "value": "right_iris_strawberry_icecream"
+    },
+    {
+      "trait_type": "scattered_complex",
+      "value": "scattered_complex_sapphire"
+    },
+    {
+      "trait_type": "sides",
+      "value": "sides_sapphire"
+    }
+  ],
+  "compiler": "HashLips Art Engine"
+}
